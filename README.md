@@ -1,4 +1,4 @@
-These files are based on Tensorflow website tutorials: https://www.tensorflow.org/tutorials/estimator/premade
+These files are based on Tensorflow website tutorials: https://www.tensorflow.org/tutorials/estimator/premade, https://www.tensorflow.org/tutorials/images/cnn, 
 
 LogisticRegression_TF.py - using LinearClassifier I got 0.76 accuracy score on 'titanic' dataset
 
@@ -16,6 +16,11 @@ Pretrained_CNN_TF.py - Binary prediction on dogs/cats dataset using transfer lea
 			After training, the model has:
 			 loss: 0.051920127123594284 
 			 accuracy: 0.9815133213996887
+
+Recurrent_CNN_TF.py - Binary prediction on imdb reviews dataset using RNN specific layers for sentiment analysis.
+			After training a simple RNN, the metrics are:
+			 loss: 0.2984626293182373 
+			 accuracy: 0.8804399967193604
 
 
 
